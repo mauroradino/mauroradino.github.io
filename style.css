@@ -1,3 +1,28 @@
-ul{
-  text-decoration-style: none;
+
+  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
+
+* {
+  padding: 0px;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: 'Covered By Your Grace', cursive;
+  margin-top: 0px;
+  padding: 0px;
+}
+.navbar{
+  display: inline-flex;
+  list-style-type: none;
+  
+}
+li{ 
+  margin-left: 20px;
+  margin-block: auto;
+}
+.img_nav{
+  padding: 0;
+  margin-top: 0;
 }

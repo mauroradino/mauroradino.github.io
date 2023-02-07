@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  header{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+h1{
+  margin: 0px;
+  font-family: 'Montserrat', bold;
+  margin-left: 80px;
+  padding-top: 20px;
+}
+h2{
+  font-family: 'Montserrat', bold;
+  margin-left: 100px;
+  margin-top: 10px; 
+}
+.navbar{
+  display: inline-flex;
+  list-style-type: none;
+  margin-block: auto;
+}
+li{ 
+  margin-block: auto;
+  margin-left: 20px;
+  font-family: 'Montserrat', bold;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+main{
+  height: 1400px;
+  margin-top: 30px;
+  background-color: rgb(142, 142, 142);
+}

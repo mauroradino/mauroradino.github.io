@@ -59,7 +59,7 @@ a{
   color: black;
 }
 main{
-  height: 700px;
+  height: auto;
   background-color: #818f8f;
   display: flex;
 }
@@ -93,4 +93,20 @@ main{
 .contacto_chico{
   margin-top: 20px;
   margin-left: 40px;
+}
+.fotos_trabajo_camion{
+  width: 16%;
+  height: 16%;
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+.foto4_camion{
+   height: 28%;
+   width: 28%;
+   margin-left: 80px;
+   margin-bottom: 200px;
+}
+.proyectos1_chico{
+
 }

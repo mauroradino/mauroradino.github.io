@@ -45,12 +45,12 @@ p{
   list-style-type: none;
   margin-block: auto;
 }
-li{ 
+.li_header{ 
   margin-block: auto;
   margin-left: 20px;
   font-family: 'Montserrat', bold;
 }
-li:hover{
+.li_header:hover{
   text-decoration: underline;
   font-size: 110%;
 }
@@ -61,4 +61,15 @@ a{
 main{
   height: 700px;
   background-color: #818f8f;
+}
+.elemento_lista_contacto{
+  list-style-type: none;
+  margin-left: 80px;
+  font-family: 'Montserrat', bold;
+}
+.fotos_lista_contacto{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
 }

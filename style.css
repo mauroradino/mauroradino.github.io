@@ -24,7 +24,7 @@ h2{
   font-family: 'Montserrat', bold;
   margin-left: 100px;
   padding-top: 40px; 
-  width: 1200px;
+  width: 600px;
 }
 h3{
   font-family: 'Montserrat', bold;
@@ -61,6 +61,13 @@ a{
 main{
   height: 700px;
   background-color: #818f8f;
+  display: flex;
+}
+.index_grande{
+  display: inline-block;
+}
+.foto_mauro{
+  margin-left: 1000px;
 }
 .elemento_lista_contacto{
   list-style-type: none;

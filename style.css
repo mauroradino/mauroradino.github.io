@@ -66,8 +66,18 @@ main{
 .index_grande{
   display: inline-block;
 }
-.foto_mauro{
-  margin-left: 1000px;
+.index_chico{
+  display: inline-flex;
+  padding-left: 100px;
+  margin-top: 40px; 
+}
+.titulo_miEducacion{
+  display: flex;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.miEducacion{
+  display: inline-block;
 }
 .elemento_lista_contacto{
   list-style-type: none;

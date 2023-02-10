@@ -82,7 +82,15 @@ width: 500px;
 height: 600px;
 background-color: black;
 margin-left: 30px;
-display: flex;
+display: inline-flex;
+}
+.contenedor_imagenONIET{
+  width: 600px;
+  height: 450px;
+  background-color: black;
+  margin-left: 30px;
+  
+  display: inline-flex;
 }
 .texto_fotos_proyectos{
 font-family: 'Montserrat', bold;
@@ -90,6 +98,15 @@ color: white;
 margin-top: 250px;
 margin-left: 100px;
 }
+.fotos_proyectoONIET{
+  width: 600px;
+  height: auto;
+  position: absolute;
+  transition: 0.5s;
+}
+.fotos_proyecto :hover{
+  opacity: 0;
+  }
 .fotos_proyecto{
 width: 500px;
 height: 600px; 
@@ -99,10 +116,22 @@ transition: 0.5s;
 .fotos_proyecto :hover{
 opacity: 0;
 }
+.texto_fotos_proyectosONIET{
+  font-family: 'Montserrat', bold;
+  color: white;
+  margin-top: 200px;
+  margin-left: 60px;
+}
 .imagenes_proyecto_camion{
 display: flex;
 margin-top: 40px;
 padding-bottom: 40px;
+}
+.imagenes_proyecto_ONIET{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .imagenes_camion{
 display: inline-flex;
@@ -110,12 +139,28 @@ width: 300px;
 margin-left: 50px;
 height: 500px;
 }
+.imagenes_ONIET{
+  display: inline-flex;
+  width: 300px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
 .imagen_camion_horizontal{
 width: auto; 
 height: 300px;
 margin-left: 50px;
 margin-top: 100px;
-
+}
+.imagen_ONIET{
+  width:  600px;
+  height: 300px;
+  margin-left: 60px;
+  margin-bottom: 30px
+}
+video{
+  margin-left: 60px;
+  width: 500px;
+  height: 300px;
 }
 .boton_volver{
 margin-left: 100px;
@@ -129,7 +174,7 @@ cursor: pointer;
 box-shadow: 1px, 1px black;
 }
 .titulo_proyectos{
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 .elemento_lista_contacto{
 list-style-type: none;

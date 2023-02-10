@@ -1,122 +1,148 @@
 
- 
-  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
 
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 header{
-  display: flex;
-  justify-content: center;
-  height: 70px;
-  background-color: #9caea9;
-  padding-bottom: 110px;
+display: flex;
+justify-content: center;
+height: 70px;
+background-color: #9caea9;
+padding-bottom: 110px;
 }
 h1{
-  margin: 0px;
-  font-family: 'Montserrat', bold;
-  margin-left: 80px;
-  padding-top: 60px;
+margin: 0px;
+font-family: 'Montserrat', bold;
+margin-left: 80px;
+padding-top: 60px;
 }
 h2{
-  font-family: 'Montserrat', bold;
-  margin-left: 100px;
-  padding-top: 40px; 
-  width: 600px;
+font-family: 'Montserrat', bold;
+margin-left: 100px;
+padding-top: 40px; 
+width: 600px;
+}
+.texto_camion{
+font-family: 'Montserrat', bold;
+margin-left: 100px;
+padding-top: 40px; 
+width: 1200px;
 }
 h3{
-  font-family: 'Montserrat', bold;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #9caea9;
+font-family: 'Montserrat', bold;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #9caea9;
 }
 p{
-  font-family: 'Montserrat', bold;
-  font-size: 20px;
-  width: 1100px;
-  margin-top: 30px;
-  margin-left: 100px;
+font-family: 'Montserrat', bold;
+font-size: 20px;
+width: 1100px;
+margin-top: 30px;
+margin-left: 100px;
 }
 .navbar{
-  display: inline-flex;
-  list-style-type: none;
-  margin-block: auto;
+display: inline-flex;
+list-style-type: none;
+margin-block: auto;
 }
-.li_header{ 
-  margin-block: auto;
-  margin-left: 20px;
-  font-family: 'Montserrat', bold;
+li{ 
+margin-block: auto;
+margin-left: 20px;
+font-family: 'Montserrat', bold;
 }
-.li_header:hover{
-  text-decoration: underline;
-  font-size: 110%;
+li:hover{
+text-decoration: underline;
+font-size: 110%;
 }
 a{
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color: black;
 }
 main{
-  height: auto;
-  background-color: #818f8f;
-  display: flex;
+height: 2000px;
+background-color: #818f8f;
+padding-top: 30px;
+padding-bottom: 50px;
 }
 .index_grande{
-  display: inline-block;
+display: inline-block;
 }
 .index_chico{
-  display: inline-flex;
-  padding-left: 100px;
-  margin-top: 40px; 
+display: inline-flex;
+padding-left: 100px;
+margin-top: 40px; 
 }
-.titulo_miEducacion{
-  display: flex;
-  margin-top: 40px;
-  margin-left: 60px;
+.contenedor_imagen{
+width: 500px;
+height: 600px;
+background-color: black;
+margin-left: 30px;
+display: flex;
 }
-.miEducacion{
-  display: inline-block;
+.texto_fotos_proyectos{
+font-family: 'Montserrat', bold;
+color: white;
+margin-top: 250px;
+margin-left: 100px;
+}
+.fotos_proyecto{
+width: 500px;
+height: 600px; 
+position: absolute;
+transition: 0.5s;
+}
+.fotos_proyecto :hover{
+opacity: 0;
+}
+.imagenes_proyecto_camion{
+display: flex;
+margin-top: 40px;
+padding-bottom: 40px;
+}
+.imagenes_camion{
+display: inline-flex;
+width: 300px;
+margin-left: 50px;
+height: 500px;
+}
+.imagen_camion_horizontal{
+width: auto; 
+height: 300px;
+margin-left: 50px;
+margin-top: 100px;
+
+}
+.boton_volver{
+margin-left: 100px;
+margin-bottom: 40px;
+width: 80px;
+height: 25px;
+background-color: #9caea9;
+border-color: none;
+border-radius: 6px;
+cursor: pointer;
+box-shadow: 1px, 1px black;
+}
+.titulo_proyectos{
+margin-bottom: 30px;
 }
 .elemento_lista_contacto{
-  list-style-type: none;
-  margin-left: 80px;
-  font-family: 'Montserrat', bold;
+list-style-type: none;
+margin-left: 80px;
+font-family: 'Montserrat', bold;
 }
 .fotos_lista_contacto{
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
-  margin-top: 20px;
+width: 40px;
+height: 40px;
+margin-right: 20px;
+margin-top: 20px;
 }
 .contacto_chico{
-  margin-top: 20px;
-  margin-left: 40px;
-}
-.fotos_trabajo_camion{
-  width: 16%;
-  height: 16%;
-  margin-left: 80px;
-  margin-top: 40px;
-  margin-bottom: 100px;
-}
-.foto4_camion{
-   height: 28%;
-   width: 28%;
-   margin-left: 80px;
-   margin-bottom: 200px;
-}
-video{
-  margin-left: 80px;
-  height: 30%;
-  width: 30%;
-  margin-right: 10px;
-  margin-bottom: 40px;
-}
-.fotos_ONIET{
-  height: 30%;
-  width: 30%;
-  margin-right: 10px;
-  margin-bottom: 40px;
+margin-top: 20px;
+margin-left: 40px;
 }

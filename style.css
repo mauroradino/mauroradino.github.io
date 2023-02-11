@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
-
 * {
   margin: 0px;
   padding: 0px;
@@ -12,6 +11,12 @@ justify-content: center;
 height: 70px;
 background-color: #9caea9;
 padding-bottom: 110px;
+}
+.navbar{
+  width:100% ;
+  background-color: #9caea9;
+  font-family: 'Montserrat', bold;
+  font-size: large;
 }
 h1{
 margin: 0px;

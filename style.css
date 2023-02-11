@@ -201,10 +201,20 @@ margin-left: 40px;
 @media (max-width:760px){
   .index_chico{
     display: inline-block;
+    align-content: center;
   }
   h2{
     padding-left: 0px;
     margin-left: 0px;
     width: 360px;
+  }
+}
+
+@media (max-width:1040px){
+  h2{
+    margin-left: 20px;
+  }
+  .index_chico{
+    padding-left: 40px;
   }
 }

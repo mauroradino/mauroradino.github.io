@@ -204,23 +204,19 @@ margin-left: 40px;
 @media (max-width:760px){
    .index_chico{
     display: inline-block;
-   }
-   h2{
+   } 
+  h2{
     margin-left: 0px;
-    width: 490px;
-   }
-   .h2_educacion{
-    padding-left: 40px;
-   }
-   .p_educacion{
-    margin-left: 40px;
-    width: 550px;
-   }
-}
-
-@media (max-width:1030px){
-
-}
-@media (min-width:1030px){
-
-}
+    width: 500px;
+  }
+  .h2_educacion{
+    padding-left: 30px;
+  }
+  .p_educacion{
+    margin-left: 30px;
+    width: 590px;
+  }
+  .contenedor_imagenONIET{
+    margin-top: 40px;
+  }
+  }

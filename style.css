@@ -39,9 +39,10 @@ width: 1200px;
 h3{
 font-family: 'Montserrat', bold;
 text-align: center;
+background-color: #9caea9;
+margin-bottom: 0px;
 padding-top: 20px;
 padding-bottom: 20px;
-background-color: #9caea9;
 }
 p{
 font-family: 'Montserrat', bold;
@@ -70,7 +71,7 @@ color: black;
 }
 main{
 height: 2000px;
-width: auto;
+background-size: cover;
 background-color: #818f8f;
 padding-top: 30px;
 padding-bottom: 50px;
@@ -196,4 +197,14 @@ margin-top: 20px;
 .contacto_chico{
 margin-top: 20px;
 margin-left: 40px; 
+}
+@media (max-width:760px){
+  .index_chico{
+    display: inline-block;
+  }
+  h2{
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 360px;
+  }
 }

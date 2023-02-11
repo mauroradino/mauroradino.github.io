@@ -5,6 +5,13 @@
   padding: 0px;
   box-sizing: border-box;
 }
+header{
+display: flex;
+justify-content: center;
+height: 70px;
+background-color: #9caea9;
+padding-bottom: 110px;
+}
 .navbar{
   width:100% ;
   background-color: #9caea9;
@@ -63,6 +70,7 @@ color: black;
 }
 main{
 height: 2000px;
+width: auto;
 background-color: #818f8f;
 padding-top: 30px;
 padding-bottom: 50px;

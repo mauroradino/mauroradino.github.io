@@ -201,7 +201,7 @@ margin-left: 40px;
 .nav-link:hover{
   text-decoration: underline;
 }
-@media (max-width:760px){
+@media (max-width:800px){
    .index_chico{
     display: inline-block;
    } 

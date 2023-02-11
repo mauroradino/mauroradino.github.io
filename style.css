@@ -219,7 +219,13 @@ margin-left: 40px;
   .contenedor_imagenONIET{
     margin-top: 40px;
   }
+  nav{
+    width: auto;
+  }
+  footer{
+    width: auto;
+  }
   body{
-    width: 760px;
+    width: auto;
   }
   }

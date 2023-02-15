@@ -84,6 +84,35 @@
     margin-left: 80px;
     margin-top: 60px;
   }
+  .titulo_proyectos{
+    display: flex;
+    justify-content: center;
+  }
+  .texto_fotos_proyectos{
+    display: none;
+  }
+  .fotos_proyecto{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .texto_fotos_proyectosONIET{
+    display: none;
+  }
+  .fotos_proyectoONIET{
+    width:130%;
+    
+  }
+  .contenedor_imagen{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .contenedor_imagenONIET{
+    display: flex;
+    justify-content: center;
+    margin-top: 60PX;
+  }
 }
 
 @media (min-width:768px) and (max-width:1024px){

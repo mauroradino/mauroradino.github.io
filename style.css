@@ -1,127 +1,313 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-header{
-display: flex;
-justify-content: center;
-height: 70px;
-background-color: #9caea9;
-padding-bottom: 110px;
+
+@media (max-width:767px){
+  nav{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #e3d5ca;
+    padding-bottom: 110px;
+  }
+  main{
+    height: 2000px;
+    background-color: #d5bdaf;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  footer{
+    background-color: #d6ccc2;
+  }
+  .container-fluid{
+    background-color: #e3d5ca;
+  }
+  .navbar{
+    list-style-type: none;
+  }
+  .nav-link{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+  }
+  .index_grande{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+  }
+  .index_chico{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  h1{
+    margin-top: 80px;
+  }
+  h2{
+    margin-top: 40px;
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  .titulo_educacion{
+    display: flex;
+    justify-content: center;
+  }
+  .contenido_educacion{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .fotos_lista_contacto{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .elemento_lista_contacto{
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .a_contacto{
+    margin-right: 0px;
+    text-decoration: none;
+    color: black;
+  }
+  .contacto_grande{
+    margin-left: 80px;
+    margin-top: 60px;
+  }
 }
-.navbar{
-  width:100% ;
-  background-color: #9caea9;
-  font-family: 'Montserrat', bold;
-  font-size: large;
+
+@media (min-width:768px) and (max-width:1024px){
+  nav{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #e3d5ca;
+    padding-bottom: 110px;
+  }
+  main{
+    height: 2000px;
+    background-color: #d5bdaf;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  footer{
+    background-color: #d6ccc2;
+  }
+  .container-fluid{
+    background-color: #e3d5ca;
+  }
+  .navbar{
+    list-style-type: none;
+  }
+  .nav-link{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+  }
+  .index_grande{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+  }
+  .index_chico{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  h1{
+    margin-top: 80px;
+  }
+  h2{
+    margin-top: 40px;
+  }
+  h3{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  .titulo_educacion{
+    display: flex;
+    justify-content: center;
+  }
+  .contenido_educacion{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .fotos_lista_contacto{
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .elemento_lista_contacto{
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .a_contacto{
+    margin-right: 0px;
+    text-decoration: none;
+    color: black;
+  }
+  .contacto_grande{
+    margin-left: 80px;
+    margin-top: 60px;
+  }
 }
-h1{
-margin: 0px;
-font-family: 'Montserrat', bold;
-margin-left: 80px;
-padding-top: 60px;
-}
-h2{
-font-family: 'Montserrat', bold;
-margin-left: 100px;
-padding-top: 40px; 
-width: 600px;
-}
-.texto_camion{
-font-family: 'Montserrat', bold;
-margin-left: 100px;
-padding-top: 40px; 
-width: 1200px;
-}
-h3{
-font-family: 'Montserrat', bold;
-text-align: center;
-background-color: #9caea9;
-margin-bottom: 0px;
-padding-top: 20px;
-padding-bottom: 20px;
-}
-p{
-font-family: 'Montserrat', bold;
-font-size: 20px;
-width: 1100px;
-margin-top: 30px;
-margin-left: 100px;
-}
-.navbar{
-display: inline-flex;
-list-style-type: none;
-margin-block: auto;
-}
-li{ 
-margin-block: auto;
-margin-left: 20px;
-font-family: 'Montserrat', bold;
-}
-li:hover{
-text-decoration: underline;
-font-size: 110%;
-}
-a{
-text-decoration: none;
-color: black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px){
+nav{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  background-color: #e3d5ca;
+  padding-bottom: 110px;
 }
 main{
-height: 2000px;
-background-size: cover;
-background-color: #818f8f;
-padding-top: 30px;
-padding-bottom: 50px;
+  height: 2000px;
+  background-color: #d5bdaf;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
+footer{
+  background-color: #d6ccc2;
+}
+h1{
+  margin: 0px;
+  font-family: 'Montserrat', bold;
+  margin-left: 80px;
+  padding-top: 60px;
+}
+h2{
+  font-family: 'Montserrat', bold;
+  margin-left: 60px;
+  margin-right: 40px;
+  padding-top: 20px; 
+  width: auto;
+}
+.texto_camion{
+  font-family: 'Montserrat', bold;
+  margin-left: 100px;
+  padding-top: 40px; 
+  width: 1200px;
+}
+.titulo_educacion{
+  margin-top: 100px;
+}
+.foto_mauro{
+  width: 600px;
+  height: 700px;
+}
+
+h3{
+  font-family: 'Montserrat', bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.contenido_educacion{
+  font-family: 'Montserrat', bold;
+  font-size: 20px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 80px;
+}
+.navbar{
+  display: inline-flex;
+  list-style-type: none;
+  margin-block: auto;
+}
+li{ 
+  margin-block: auto;
+  margin-left: 20px;
+  font-family: 'Montserrat', bold;
+}
+li:hover{
+  text-decoration: underline;
+  font-size: 110%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .index_grande{
-display: inline-block;
+  display: inline-block;
 }
 .index_chico{
-display: inline-flex;
-padding-left: 100px;
-margin-top: 40px; 
+  display: inline-flex;
+  padding-left: 100px;
+  margin-top: 40px; 
+}
+.proyectos{
+  display: flex;
+  justify-content: center;
 }
 .contenedor_imagen{
-width: 500px;
-height: 600px;
-background-color: black;
-margin-left: 30px;
-display: inline-flex;
-}
-.contenedor_imagenONIET{
-  width: 600px;
-  height: 450px;
+  width: 400px;
+  height: 600px;
   background-color: black;
   margin-left: 30px;
-  
+  display: inline-flex;
+}
+.contenedor_imagenONIET{
+  width: 40%;
+  height: 350px;
+  background-color: black;
+  margin-left: 40px;
   display: inline-flex;
 }
 .texto_fotos_proyectos{
-font-family: 'Montserrat', bold;
-color: white;
-margin-top: 250px;
-margin-left: 100px;
+  font-family: 'Montserrat', bold;
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+ margin-left: 10px;
 }
-.fotos_proyectoONIET{
-  width: 600px;
-  height: auto;
+.fotos_proyecto{
+  width: 400px;
+  height: 600px; 
   position: absolute;
   transition: 0.5s;
 }
 .fotos_proyecto :hover{
   opacity: 0;
-  }
-.fotos_proyecto{
-width: 500px;
-height: 600px; 
-position: absolute;
-transition: 0.5s;
 }
-.fotos_proyecto :hover{
-opacity: 0;
+.fotos_proyectoONIET{
+  width: 102.6%;
+  height: auto;
+  position: absolute;
+  transition: 0.5s;
 }
 .texto_fotos_proyectosONIET{
   font-family: 'Montserrat', bold;
@@ -129,137 +315,52 @@ opacity: 0;
   margin-top: 200px;
   margin-left: 60px;
 }
+
 .imagenes_proyecto_camion{
-display: flex;
-margin-top: 40px;
-padding-bottom: 40px;
-}
-.imagenes_proyecto_ONIET{
   display: flex;
   margin-top: 40px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 40px;
 }
 .imagenes_camion{
-display: inline-flex;
-width: 300px;
-margin-left: 50px;
-height: 500px;
-}
-.imagenes_ONIET{
   display: inline-flex;
   width: 300px;
   margin-left: 50px;
-  margin-bottom: 40px;
+  height: 500px;
 }
 .imagen_camion_horizontal{
-width: auto; 
-height: 300px;
-margin-left: 50px;
-margin-top: 100px;
-}
-.imagen_ONIET{
-  width:  600px;
+  width: auto; 
   height: 300px;
-  margin-left: 60px;
-  margin-bottom: 30px
-}
-video{
-  margin-left: 60px;
-  width: 500px;
-  height: 300px;
+  margin-left: 50px;
+  margin-top: 100px;
+  
 }
 .boton_volver{
-margin-left: 100px;
-margin-bottom: 40px;
-width: 80px;
-height: 25px;
-background-color: #9caea9;
-border-color: none;
-border-radius: 6px;
-cursor: pointer;
-box-shadow: 1px, 1px black;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  width: 80px;
+  height: 25px;
+  background-color: #9caea9;
+  border-color: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 1px, 1px black;
 }
 .titulo_proyectos{
-margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .elemento_lista_contacto{
-list-style-type: none;
-margin-left: 80px;
-font-family: 'Montserrat', bold;
+  list-style-type: none;
+  margin-left: 80px;
+  font-family: 'Montserrat', bold;
 }
 .fotos_lista_contacto{
-width: 40px;
-height: 40px;
-margin-right: 20px;
-margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 .contacto_chico{
-margin-top: 20px;
-margin-left: 40px; 
+  margin-top: 20px;
+  margin-left: 40px;
 }
-.nav-link:hover{
-  text-decoration: underline;
-}
-nav{
-  width: auto;
-}
-footer{
-  width: auto;
-}
-body{
-  width: auto;
-}
-
-@media (max-width:870px){
-   .index_chico{
-    display: inline-block;
-   } 
-  h2{
-    margin-left: 0px;
-    width: 500px;
-  }
-  .h2_educacion{
-    padding-left: 30px;
-  }
-  .p_educacion{
-    margin-left: 30px;
-    width: 590px;
-  }
-  .contenedor_imagenONIET{
-    margin-top: 40px;
-  }
-}
-@media (min-width:870px) and (max-width:960px){
-  h2{
-    width: 300px;
-    margin-left: 10px;
-    margin-top: -40px;
-  }
-  .foto_mauro{
-    width: 335px;
-    height: 455px;
-  }
-}
-@media (min-width:960px) and (max-width:1100px){
-  h2{
-    width: 400px;
-    margin-left: 10px;
-    margin-top: -40px;
-  }
-  .foto_mauro{
-    width: 335px;
-    height: 455px;
-  }
-}
-@media (min-width:1100px) and (max-width:1500px){
-  h2{
-    width: 500px;
-    margin-left: 10px;
-    margin-top: -40px;
-  }
-  .foto_mauro{
-    width: 335px;
-    height: 455px; 
-  }
 }

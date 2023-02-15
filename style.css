@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width:767px){
+@media (max-width:800px){
   nav{
     display: flex;
     justify-content: center;
@@ -115,7 +115,7 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:801px) and (max-width:1024px){
   nav{
     display: flex;
     justify-content: center;

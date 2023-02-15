@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width:800px){
+@media (max-width:800px){ /*TERMINADO NO TOCAR*/
  
   nav{
     display: flex;
@@ -175,7 +175,7 @@ video{
     justify-content: center;
     margin-top: 60PX;
   }
-}
+} /*TERMINADO NO TOCAR*/
 
 @media (min-width:801px) and (max-width:1024px){
   nav{
@@ -253,6 +253,73 @@ video{
   .contacto_grande{
     margin-left: 80px;
     margin-top: 60px;
+  }
+  .texto_fotos_proyectosONIET{
+    display: none;
+  }
+  .texto_fotos_proyectos{
+    display: none;
+  }
+  .fotos_proyecto{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+  .fotos_proyectoONIET{
+    width: 80%;
+    margin-top: 40px;
+  }
+  .titulo_proyectos{
+    display: flex;
+    justify-content: center;
+  }
+  .titulo_camion{
+    display: flex;
+    justify-content: center;
+  }
+  .texto_camion{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+  }
+  .imagenes_camion1{
+    width: auto;
+    height: 800px;
+    margin-left: 180px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
+  .imagenes_camion2{
+    display: none;
+  }
+  .imagen_camion_horizontal{
+    width: 700px;
+    display: flex;
+    margin-left: 9%;
+  }
+  .boton_volver_camion{
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 8px;
+    width: 80px;
+  }
+  .titulo_ONIET{
+    display: flex;
+    justify-content: center;
+  }
+  .boton_volver_ONIET{
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 8px;
+    width: 80px;
+  }
+  .imagen_ONIET{
+    width: 90%;
+    margin-left: 45px;
+    margin-bottom: 60px;
+  }
+  video{
+    margin-left: 45px;
   }
 }
 

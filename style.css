@@ -74,7 +74,10 @@
   margin-left: 20px;
 }
 video{
-  margin-top: 60px;
+  width: 90%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 .boton_volver_ONIET{
   margin-left: 40px;
@@ -320,6 +323,7 @@ video{
   }
   video{
     margin-left: 45px;
+    
   }
 }
 

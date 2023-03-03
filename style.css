@@ -8,7 +8,26 @@
 }
 
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
- 
+  .foto_proyecto{
+    margin-bottom: 40px;
+  }
+  .foto_proyecto2{
+    margin-bottom: 40px;
+  }
+  .txtFotos_proyecto{
+    display: none;
+  }
+  .txtFotos_proyecto2{
+    display: none;
+  }
+  .main_proyectos{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .num_wpp{
+    text-decoration: none;
+    color: black;
+  }
   nav{
     display: flex;
     justify-content: center;
@@ -17,7 +36,7 @@
     padding-bottom: 110px;
   }
   main{
-    height: 2000px;
+    height: 100%;
     background-color: #d5bdaf;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -178,9 +197,43 @@ video{
     justify-content: center;
     margin-top: 60PX;
   }
+  .foto_proyecto{
+    width: 98%;
+  }
+  .foto_proyecto2{
+    width: 99%;
+  }
+  .foto_proyecto3{
+    width: 98%;
+  }
 } /*TERMINADO NO TOCAR*/
 
 @media (min-width:801px) and (max-width:1024px){
+  .foto_proyecto{
+    width: 98%;
+  }
+  .foto_proyecto2{
+    width: 99%;
+  }
+  .foto_proyecto3{
+    width: 98%;
+  }
+  .foto_proyecto{
+    margin-bottom: 40px;
+  }
+  .foto_proyecto2{
+    margin-bottom: 40px;
+  }
+  .txtFotos_proyecto{
+    display: none;
+  }
+  .txtFotos_proyecto2{
+    display: none;
+  }
+  .num_wpp{
+    text-decoration: none;
+    color: black;
+  }
   nav{
     display: flex;
     justify-content: center;
@@ -434,53 +487,6 @@ a{
   padding-left: 100px;
   margin-top: 40px; 
 }
-.proyectos{
-  display: flex;
-  justify-content: center;
-}
-.contenedor_imagen{
-  width: 400px;
-  height: 600px;
-  background-color: black;
-  margin-left: 30px;
-  display: inline-flex;
-}
-.contenedor_imagenONIET{
-  width: 40%;
-  height: 350px;
-  background-color: black;
-  margin-left: 40px;
-  display: inline-flex;
-}
-.texto_fotos_proyectos{
-  font-family: 'Montserrat', bold;
-  color: white;
-  text-align: center;
-  margin-top: 250px;
- margin-left: 10px;
-}
-.fotos_proyecto{
-  width: 400px;
-  height: 600px; 
-  position: absolute;
-  transition: 0.5s;
-}
-.fotos_proyecto :hover{
-  opacity: 0;
-}
-.fotos_proyectoONIET{
-  width: 102.6%;
-  height: auto;
-  position: absolute;
-  transition: 0.5s;
-}
-.texto_fotos_proyectosONIET{
-  font-family: 'Montserrat', bold;
-  color: white;
-  margin-top: 100px;
-  margin-left: 60px;
-}
-
 .boton_volver{
   margin-left: 100px;
   margin-bottom: 40px;
@@ -546,8 +552,71 @@ a{
 .B{
   display: inline-block;
 }
-.contenedor_imagenONIET{
-  width: 28.8%;
-  height: 16%;
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  margin: 0 auto;
+}
+.proyecto1{
+  grid-row: 1/3;
+}
+.proyecto1 :hover{
+  transition: 800ms;
+  filter: blur(3px);
+}
+.foto_proyecto{
+  position: relative;
+  width: 90%;
+  margin: 1%;
+  z-index:  2;
+}
+.txtFotos_proyecto{
+  color: white;
+  text-shadow: 3px 3px black;
+  position: relative;
+  z-index:  1;
+  margin-top: -80%;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+}
+.proyecto2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.proyecto2 :hover{
+  transition: 800ms;
+  filter: blur(3px);
+}
+.foto_proyecto2{
+  position: relative;
+  width: 90%;
+  z-index: 2;
+}
+.txtFotos_proyecto2{
+  position: relative;
+  margin-top: -30%;
+  margin-bottom: 12%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.proyecto3{
+  grid-row: 2/3;
+  margin-top: 100px;
+}
+.foto_proyecto3{
+  position: relative;
+  width: 90%;
+  z-index: 2;
+}
+.txtFotos_proyecto3 :hover{
+  z-index: 2;
+  transition: 1s;
 }
 }

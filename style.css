@@ -561,10 +561,6 @@ a{
 .proyecto1{
   grid-row: 1/3;
 }
-.proyecto1 :hover{
-  transition: 800ms;
-  filter: blur(3px);
-}
 .foto_proyecto{
   position: relative;
   width: 90%;
@@ -585,14 +581,9 @@ a{
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.proyecto2 :hover{
-  transition: 800ms;
-  filter: blur(3px);
-}
 .foto_proyecto2{
   position: relative;
   width: 90%;
-  z-index: 2;
 }
 .txtFotos_proyecto2{
   position: relative;
@@ -613,10 +604,16 @@ a{
 .foto_proyecto3{
   position: relative;
   width: 90%;
-  z-index: 2;
 }
-.txtFotos_proyecto3 :hover{
-  z-index: 2;
-  transition: 1s;
+.foto_proyecto4{
+  margin-top: 200px;
+  width: 600px;
+  width: 600px;
+}
+.foto_proyecto5{
+  margin-top: 100px;
+}
+.proy_45{
+  display: contents;
 }
 }

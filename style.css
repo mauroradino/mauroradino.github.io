@@ -8,18 +8,6 @@
 }
 
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
-  .foto_proyecto{
-    margin-bottom: 40px;
-  }
-  .foto_proyecto2{
-    margin-bottom: 40px;
-  }
-  .txtFotos_proyecto{
-    display: none;
-  }
-  .txtFotos_proyecto2{
-    display: none;
-  }
   .main_proyectos{
     padding-left: 20px;
     padding-right: 20px;
@@ -165,20 +153,13 @@ video{
     display: flex;
     justify-content: center;
   }
-  .texto_fotos_proyectos{
-    display: none;
-  }
   .fotos_proyecto{
     width: 70%;
     display: flex;
     justify-content: center;
   }
-  .texto_fotos_proyectosONIET{
-    display: none;
-  }
   .fotos_proyectoONIET{
     width:130%;
-    
   }
   .imagenes_proyecto_camion{
     display: flex;
@@ -198,37 +179,78 @@ video{
     margin-top: 60PX;
   }
   .foto_proyecto{
-    width: 98%;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .foto_proyecto2{
-    width: 99%;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .foto_proyecto3{
-    width: 98%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .foto_proyecto4{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+  }
+  .foto_proyecto5{
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  .proyecto4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 } /*TERMINADO NO TOCAR*/
 
 @media (min-width:801px) and (max-width:1024px){
+  .main_proyectos{
+    width: 100%;
+  }
   .foto_proyecto{
-    width: 98%;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .foto_proyecto2{
-    width: 99%;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .foto_proyecto3{
-    width: 98%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
-  .foto_proyecto{
-    margin-bottom: 40px;
+  .foto_proyecto4{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
   }
-  .foto_proyecto2{
-    margin-bottom: 40px;
+  .foto_proyecto5{
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
   }
-  .txtFotos_proyecto{
-    display: none;
-  }
-  .txtFotos_proyecto2{
-    display: none;
+  .proyecto4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .num_wpp{
     text-decoration: none;
@@ -242,7 +264,7 @@ video{
     padding-bottom: 110px;
   }
   main{
-    height: 2000px;
+    height: 8000px;
     background-color: #d5bdaf;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -310,12 +332,6 @@ video{
     margin-left: 80px;
     margin-top: 60px;
   }
-  .texto_fotos_proyectosONIET{
-    display: none;
-  }
-  .texto_fotos_proyectos{
-    display: none;
-  }
   .fotos_proyecto{
     width: 60%;
     margin-left: 10%;
@@ -375,28 +391,9 @@ video{
     margin-bottom: 60px;
   }
   video{
-    margin-left: 45px;
-    
+    margin-left: 45px; 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width:1024px){
   nav{

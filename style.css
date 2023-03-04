@@ -8,6 +8,12 @@
 }
 
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
+  .main_contacto{
+    height: 100%;
+    background-color: #d5bdaf;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
   .main_proyectos{
     padding-left: 20px;
     padding-right: 20px;
@@ -22,12 +28,6 @@
     height: 70px;
     background-color: #e3d5ca;
     padding-bottom: 110px;
-  }
-  main{
-    height: 100%;
-    background-color: #d5bdaf;
-    padding-top: 30px;
-    padding-bottom: 50px;
   }
   footer{
     background-color: #d6ccc2;

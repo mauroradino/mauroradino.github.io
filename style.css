@@ -10,7 +10,7 @@
 
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
   .main_contacto{
-    height: 100%;
+    height: 1000px;
     background-color: #A9A9A9;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -153,7 +153,7 @@ video{
     color: black;
   }
   .contacto_grande{
-    margin-left: 80px;
+    margin-left: 20px;
     margin-top: 60px;
   }
   .titulo_proyectos{
@@ -221,6 +221,9 @@ video{
 } /*TERMINADO NO TOCAR*/
 
 @media (min-width:801px) and (max-width:1024px){
+  .main_contacto{
+    height: 1500px;
+  }
   .main_proyectos{
     width: 100%;
   }
@@ -402,6 +405,9 @@ video{
 }
 
 @media (min-width:1251px){
+  .main_contacto{
+    height: 1500px;
+  }
   nav{
     display: flex;
     justify-content: center;
@@ -621,6 +627,9 @@ a{
 }
 }
 @media (min-width: 1024px) and (max-width: 1250px){
+  .main_contacto{
+    height: 1500px;
+  }
   nav{
     display: flex;
     justify-content: center;

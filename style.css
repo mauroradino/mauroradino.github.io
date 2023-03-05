@@ -9,6 +9,10 @@
 }
 
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
+  .iconos_contacto{
+    display: flex;
+    justify-content: center;
+  }
   .main_contacto{
     height: 1000px;
     background-color: #A9A9A9;
@@ -141,7 +145,7 @@ video{
   .fotos_lista_contacto{
     width: 30px;
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 5px;
   }
   .elemento_lista_contacto{
     list-style-type: none;

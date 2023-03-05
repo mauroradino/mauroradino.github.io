@@ -10,13 +10,13 @@
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
   .main_contacto{
     height: 100%;
-    background-color: #d5bdaf;
+    background-color: #A9A9A9;
     padding-top: 30px;
     padding-bottom: 50px;
   }
   main{
     height: 105%;
-    background-color: #d5bdaf;
+    background-color: #A9A9A9;
     padding-top: 30px;
     padding-bottom: 50px;
   }
@@ -32,11 +32,11 @@
     display: flex;
     justify-content: center;
     height: 70px;
-    background-color: #e3d5ca;
+    background-color: #d0d0d0;
     padding-bottom: 110px;
   }
   footer{
-    background-color: #d6ccc2;
+    background-color: #d0d0d0;
   }
   .container-fluid{
     background-color: #e3d5ca;
@@ -266,17 +266,17 @@ video{
     display: flex;
     justify-content: center;
     height: 70px;
-    background-color: #e3d5ca;
+    background-color: #d0d0d0;
     padding-bottom: 110px;
   }
   main{
     height: 8000px;
-    background-color: #d5bdaf;
+    background-color: #A9A9A9;
     padding-top: 30px;
     padding-bottom: 50px;
   }
   footer{
-    background-color: #d6ccc2;
+    background-color: #d0d0d0;
   }
   .container-fluid{
     background-color: #e3d5ca;
@@ -406,7 +406,7 @@ video{
     display: flex;
     justify-content: center;
     height: 70px;
-    background-color: #e3d5ca;
+    background-color: #d0d0d0;
     padding-bottom: 110px;
   }
   .navbar{
@@ -419,12 +419,12 @@ video{
   }
 main{
   height: 2000px;
-  background-color: #d5bdaf;
+  background-color: #A9A9A9;
   padding-top: 30px;
   padding-bottom: 50px;
 }
 footer{
-  background-color: #d6ccc2;
+  background-color: #d0d0d0;
 }
 h1{
   margin: 0px;

@@ -7,7 +7,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat', bold;
 }
-
+.CV{
+  margin-left: 8%;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 12px;
+}
 @media (max-width:800px){ /*TERMINADO NO TOCAR*/
   .iconos_contacto{
     display: flex;
@@ -222,6 +228,11 @@ video{
     display: flex;
     justify-content: center;
   }
+  .proyecto6{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
 } /*TERMINADO NO TOCAR*/
 
 @media (min-width:801px) and (max-width:1024px){
@@ -229,7 +240,7 @@ video{
     height: 1500px;
   }
   .main_proyectos{
-    width: 100%;
+    height: 6000px;
   }
   .foto_proyecto{
     margin: 0 auto;
@@ -262,6 +273,11 @@ video{
   }
   .proyecto4{
     width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .proyecto6{
+    margin: 0 auto;
     display: flex;
     justify-content: center;
   }
@@ -409,6 +425,7 @@ video{
 }
 
 @media (min-width:1251px){
+  
   .main_contacto{
     height: 1500px;
   }
@@ -428,10 +445,13 @@ video{
     color: black;
   }
 main{
-  height: 2000px;
+  height: 2300px;
   background-color: #A9A9A9;
   padding-top: 30px;
   padding-bottom: 50px;
+}
+.main_proyectos{
+  height: auto;
 }
 footer{
   background-color: #d0d0d0;
@@ -629,6 +649,10 @@ a{
 .proy_45{
   display: contents;
 }
+.proyecto6{
+  display: flex;
+  justify-content: center;
+}
 }
 @media (min-width: 1024px) and (max-width: 1250px){
   .main_contacto{
@@ -656,7 +680,7 @@ a{
     padding-bottom: 50px;
   }
 .main_proyectos{
-  height: 5000px;
+  height: 6000px;
   background-color: #A9A9A9;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -810,6 +834,12 @@ a{
   display: inline-block;
   justify-content: center;
 }
+.proyecto6{
+  margin: 0 auto;
+  display: flex;
+  display: inline-block;
+  justify-content: center;
+}
 .fotos_proyecto{
   display: flex;
   justify-content: center;
@@ -831,11 +861,11 @@ a{
 .foto_proyecto4{
   display: inline-block;
   width: 90%;
-  margin: 15%; 
+  margin: 10%; 
 }
 .foto_proyecto5{
   display: inline-block;
   width: 90%;
-  margin: 15%; 
+  margin: 10%; 
 }
 }
